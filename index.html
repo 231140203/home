@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="苏钰涵｜AI-Native Software Engineer — Agent、RAG 与智能系统。">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>苏钰涵 / Su Yuhan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav wrap">
+    <a class="logo" href="#top">SY<span>.</span></a>
+    <nav>
+      <a href="#work" data-zh="项目" data-en="Work">项目</a>
+      <a href="#about" data-zh="关于" data-en="About">关于</a>
+      <a href="mailto:3268128167@qq.com" data-zh="联系" data-en="Contact">联系</a>
+    </nav>
+    <button id="lang" aria-label="Switch language"><span class="active">中</span><span>EN</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="intro">
+        <p class="overline"><i></i><span data-zh="AI-Native 软件工程 / 上海" data-en="AI-Native Software Engineering / Shanghai">AI-Native 软件工程 / 上海</span></p>
+        <h1 data-zh="你好，我是<br>苏钰涵。" data-en="Hi, I’m<br>Su Yuhan.">你好，我是<br>苏钰涵。</h1>
+        <p class="lead" data-zh="我构建会思考、会调用工具、也会自我纠错的智能系统。关注 Agent、RAG 与可靠的软件工程。" data-en="I build intelligent systems that reason, use tools, and correct themselves—with a focus on agents, RAG, and reliable software engineering.">我构建会思考、会调用工具、也会自我纠错的智能系统。关注 Agent、RAG 与可靠的软件工程。</p>
+        <div class="actions">
+          <a class="button primary" href="#work"><span data-zh="查看项目" data-en="View projects">查看项目</span><b>↓</b></a>
+          <a class="button ghost" href="https://github.com/231140203" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <aside class="now-card">
+        <div class="now-head"><span>NOW</span><span class="pulse"></span></div>
+        <p data-zh="正在探索" data-en="EXPLORING">正在探索</p>
+        <strong data-zh="让 Agent 从“能回答”<br>走向“能完成”。" data-en="Moving agents from<br>answers to outcomes.">让 Agent 从“能回答”<br>走向“能完成”。</strong>
+        <div class="flow" aria-hidden="true"><span>PLAN</span><i>→</i><span>ACT</span><i>→</i><span>REFLECT</span></div>
+      </aside>
+    </section>
+
+    <section class="work wrap" id="work">
+      <div class="section-title">
+        <p>01 / <span data-zh="精选项目" data-en="SELECTED WORK">精选项目</span></p>
+        <h2 data-zh="把新想法，<br>做成可运行的系统。" data-en="Turning new ideas<br>into working systems.">把新想法，<br>做成可运行的系统。</h2>
+      </div>
+
+      <div class="projects">
+        <a class="project" href="https://github.com/231140203/dazuoye" target="_blank" rel="noreferrer">
+          <div class="project-media"><img src="assets/marketpilot.webp" alt="Abstract multi-agent decision network" loading="lazy"></div>
+          <div class="project-top"><span>01 · FEATURED</span><b>↗</b></div>
+          <h3>MarketPilot</h3>
+          <p data-zh="基于 LangGraph 的多智能体商业决策系统。通过动态 Skill、Critic Agent 与主动记忆修剪，让决策过程可回溯、可纠错。" data-en="A LangGraph multi-agent decision system with dynamic skills, an independent critic, and active memory pruning for auditable, self-correcting decisions.">基于 LangGraph 的多智能体商业决策系统。通过动态 Skill、Critic Agent 与主动记忆修剪，让决策过程可回溯、可纠错。</p>
+          <div class="tags"><span>LangGraph</span><span>ReAct</span><span>RAG</span><span>FAISS</span></div>
+        </a>
+
+        <a class="project" href="https://github.com/231140203/campus-carbon-architecture-showcase" target="_blank" rel="noreferrer">
+          <div class="project-media"><img src="assets/campus-carbon.webp" alt="Miniature sustainable campus connected by energy flows" loading="lazy"></div>
+          <div class="project-top"><span>02 · AGENT SYSTEM</span><b>↗</b></div>
+          <h3 data-zh="校园双碳平台" data-en="Campus Carbon Platform">校园双碳平台</h3>
+          <p data-zh="用 MCP、Hybrid RAG 与多模态审核连接自然语言、业务工具和主动风控。" data-en="MCP, Hybrid RAG, and multimodal review connecting language, business tools, and proactive risk control.">用 MCP、Hybrid RAG 与多模态审核连接自然语言、业务工具和主动风控。</p>
+          <div class="tags"><span>MCP</span><span>Hybrid RAG</span><span>RBAC</span></div>
+        </a>
+
+        <a class="project" href="https://github.com/231140203/medseg" target="_blank" rel="noreferrer">
+          <div class="project-media"><img src="assets/medical-imaging.webp" alt="Abstract pancreatic medical imaging segmentation" loading="lazy"></div>
+          <div class="project-top"><span>03 · RESEARCH</span><b>↗</b></div>
+          <h3 data-zh="胰腺影像智能分析" data-en="Pancreatic Imaging AI">胰腺影像智能分析</h3>
+          <p data-zh="通过 LLaVA-Med 微调与形态感知定位，为现有 CT/MRI 分割模型提供可插拔先验。" data-en="Plug-and-play morphology-aware grounding for existing CT/MRI segmentation models, powered by LLaVA-Med fine-tuning.">通过 LLaVA-Med 微调与形态感知定位，为现有 CT/MRI 分割模型提供可插拔先验。</p>
+          <div class="tags"><span>PyTorch</span><span>LLaVA-Med</span><span>nnU-Net</span></div>
+        </a>
+
+        <a class="project" href="https://github.com/231140203/Risk-Identification-and-Service-Upgrade-in-Logistics-Claims" target="_blank" rel="noreferrer">
+          <div class="project-media"><img src="assets/logistics-risk.webp" alt="Logistics parcels with one detected risk anomaly" loading="lazy"></div>
+          <div class="project-top"><span>04 · DATA SCIENCE</span><b>↗</b></div>
+          <h3 data-zh="物流理赔风控" data-en="Logistics Claims Risk">物流理赔风控</h3>
+          <p data-zh="以动态阈值、SMOTE 与 LightGBM 处理 19 万级长尾运单，获 MathorCup 全国一等奖。" data-en="Dynamic thresholds, SMOTE, and LightGBM for 190K long-tail orders; National First Prize at MathorCup.">以动态阈值、SMOTE 与 LightGBM 处理 19 万级长尾运单，获 MathorCup 全国一等奖。</p>
+          <div class="tags"><span>LightGBM</span><span>DBSCAN</span><span>SMOTE</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="about wrap" id="about">
+      <div class="section-title compact"><p>02 / <span data-zh="关于" data-en="ABOUT">关于</span></p></div>
+      <div class="about-grid">
+        <p class="statement" data-zh="把 AI 做成可靠、可解释、真正可用的系统。" data-en="Building AI systems that are reliable, explainable, and useful.">把 AI 做成可靠、可解释、真正可用的系统。</p>
+        <div class="facts">
+          <div><span data-zh="教育" data-en="EDUCATION">教育</span><p data-zh="东华大学 · 软件工程<br>GPA 90.4 / 100 · 专业前 5%" data-en="Donghua University · Software Engineering<br>GPA 90.4 / 100 · Top 5%">东华大学 · 软件工程<br>GPA 90.4 / 100 · 专业前 5%</p></div>
+          <div><span data-zh="方向" data-en="FOCUS">方向</span><p>LLM Agents · RAG · AI-Native Software<br>Computer Vision · Data Intelligence</p></div>
+          <div><span data-zh="技术" data-en="STACK">技术</span><p>Python · Java · LangGraph · LangChain<br>FastAPI · Neo4j · Docker · Linux</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact wrap">
+      <p>03 / CONTACT</p>
+      <a href="mailto:3268128167@qq.com"><span data-zh="一起做点新的。" data-en="Let’s build something new.">一起做点新的。</span><b>↗</b></a>
+      <footer><span>© 2026 SU YUHAN</span><span>SHANGHAI · UTC+8</span></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
